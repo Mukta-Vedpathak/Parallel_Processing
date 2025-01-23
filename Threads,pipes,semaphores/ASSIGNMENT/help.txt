@@ -1,0 +1,20 @@
+.
+├── Makefile
+├── PART1
+│   └── part1.cpp
+├── PART2
+│   ├── part2_1.cpp
+│   ├── part2_2.cpp
+│   └── part2_3.cpp
+├── libppm.cpp
+├── libppm.h         # (Assumed to exist, needed for libppm.cpp)
+└── images
+    ├── 1.ppm
+    ├── output_part1.ppm
+    ├── output_part2_1.ppm
+    ├── output_part2_2.ppm
+    └── output_part2_3.ppm
+
+
+Make command
+make part1 part2_1 part2_2 part2_3
